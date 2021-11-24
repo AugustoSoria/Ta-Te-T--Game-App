@@ -1,0 +1,88 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.747);
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 4px;
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 0, 0, 0.384);
+    border-radius: 10px;
+}
+
+.cuadro {
+    color: white;
+    font-size: 450%;
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    font-family: 'Permanent Marker', cursive;
+}
+
+button:hover {
+    border: 1px solid white;
+} 
+
+.juego{
+    width: 315px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.luz {
+    position: absolute;
+    z-index: -3;
+    left: 40%;
+    top: 20%;
+    background-color: rgba(255, 0, 0, 0.384);
+    box-shadow: 3px 3px 120px red;
+    border-radius: 480px;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+}
+
+.tablero{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+
+.puntaje{
+    border: 1px solid black;
+    height: 120px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.turnoDe {
+    text-align: center;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+@media (max-width: 1024px) {
+    .luz {
+        left: 38%;
+        top: 10%;
+    }
+}
+@media (max-width: 400px) {
+    .luz {
+        left: 16%;
+        top: 17%;
+    }
+}

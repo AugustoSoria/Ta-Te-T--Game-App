@@ -1,0 +1,5 @@
+export const SET_PUNTAJE_X =  "SET_PUNTAJE_X"
+export const SET_PUNTAJE_O = "SET_PUNTAJE_O"
+export const SET_POSICION = "SET_POSICION"
+export const SET_X = "SET_X"
+export const RESET = "RESET"
